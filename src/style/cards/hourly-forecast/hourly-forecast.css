@@ -1,0 +1,70 @@
+.hourly-forecast {
+  background-color: var(--light-blue-2);
+  padding: 15px;
+  border-radius: 20px;
+}
+.hourly-forecast .title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.hourly-forecast .title svg {
+  width: 25px;
+  height: 25px;
+}
+.hourly-forecast .title svg:nth-child(2) {
+  fill: var(--blue-2);
+}
+.hourly-forecast .title span {
+  font-size: 1.4rem;
+  color: var(--blue-2);
+  font-weight: 800;
+}
+.hourly-forecast hr {
+  color: var(--blue-2);
+}
+.hourly-forecast .cards {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  margin-block: 15px;
+}
+.hourly-forecast .cards .card {
+  background-color: var(--light-blue-3);
+  border-radius: 20px;
+  padding-block: 10px;
+  display: grid;
+  justify-items: center;
+  gap: 15px;
+}
+.hourly-forecast .cards .card .time {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--blue-2);
+}
+.hourly-forecast .cards .card .temp {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--blue-1);
+}
+.hourly-forecast .cards .card svg {
+  width: 25px;
+  height: 25px;
+}
+.hourly-forecast .cards .card svg path {
+  fill: #5e5e5e;
+}
+.hourly-forecast progress {
+  background-color: var(--light-blue-3);
+  width: 100%;
+  height: 10px;
+  border-radius: 20px;
+}
+.hourly-forecast progress::-webkit-progress-bar {
+  background-color: var(--light-blue-4);
+  border-radius: 20px;
+}
+.hourly-forecast progress::-moz-progress-bar {
+  background-color: var(--light-blue-4);
+  border-radius: 20px;
+}/*# sourceMappingURL=hourly-forecast.css.map */

@@ -1,0 +1,78 @@
+.hourly-forecast {
+    background-color: var(--light-blue-2);
+    padding: 15px;
+    border-radius: 20px;
+
+    .title {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        svg {
+            width: 25px;
+            height: 25px;
+
+            &:nth-child(2) {
+                fill: var(--blue-2);
+            }
+        }
+        span {
+            font-size: 1.4rem;
+            color: var(--blue-2);
+            font-weight: 800;
+        }
+    }
+    hr {
+        color: var(--blue-2);
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 10px;
+        margin-block: 15px;
+
+        .card {
+            background-color: var(--light-blue-3);
+            border-radius: 20px;
+            padding-block: 10px;
+            display: grid;
+            justify-items: center;
+            gap: 15px;
+
+            .time {
+                font-size: 1rem;
+                font-weight: 800;
+                color: var(--blue-2);
+            }
+            .temp {
+                font-size: 1.6rem;
+                font-weight: 800;
+                color: var(--blue-1);
+            }
+            svg {
+                width: 25px;
+                height: 25px;
+
+                path {
+                    fill: #5e5e5e;
+                }
+            }
+        }
+    }
+
+    progress {
+        background-color: var(--light-blue-3);
+        width: 100%;
+        height: 10px;
+        border-radius: 20px;
+
+        &::-webkit-progress-bar {
+            background-color: var(--light-blue-4);
+            border-radius: 20px;
+        }
+        &::-moz-progress-bar {
+            background-color: var(--light-blue-4);
+            border-radius: 20px;
+        }
+    }
+}
