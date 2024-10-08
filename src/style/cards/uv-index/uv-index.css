@@ -1,0 +1,60 @@
+.uv-index {
+  background-color: var(--light-blue-2);
+  border-radius: 20px;
+  padding: 15px;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+}
+.uv-index .title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.uv-index .title svg {
+  width: 25px;
+  height: 25px;
+}
+.uv-index .title svg path {
+  fill: var(--blue-2);
+}
+.uv-index .title span {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--blue-2);
+}
+.uv-index hr {
+  color: var(--blue-2);
+}
+.uv-index .uv-holder {
+  display: grid;
+  justify-content: space-between;
+}
+.uv-index .uv-holder .main-inf {
+  display: grid;
+}
+.uv-index .uv-holder .main-inf .temp {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--blue-1);
+}
+.uv-index .uv-holder .main-inf .condition {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--blue-2);
+}
+.uv-index .uv-holder .last {
+  display: grid;
+  gap: 7px;
+  margin-top: auto;
+}
+.uv-index .uv-holder .last .uv-bar {
+  width: 100%;
+  height: 10px;
+  border-radius: 20px;
+  background: linear-gradient(to right, green, yellow, red, orange);
+}
+.uv-index .uv-holder .last .more-inf {
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: var(--blue-2);
+}/*# sourceMappingURL=uv-index.css.map */
