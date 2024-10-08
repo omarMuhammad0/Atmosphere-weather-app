@@ -4,8 +4,8 @@ form {
 }
 form input {
   width: 517px;
-  height: 80px;
-  font-size: 1.8rem;
+  height: 70px;
+  font-size: 1.6rem;
   color: var(--blue-1);
   font-weight: 800;
   background-color: var(--light-blue-2);
@@ -32,8 +32,8 @@ form > svg path {
   fill: var(--blue-1);
 }
 form button {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   background-color: var(--light-blue-3);
   transform: translateX(calc(-100% - 12px));
   border-radius: 50%;
@@ -46,6 +46,6 @@ form button:hover {
   cursor: pointer;
 }
 form button svg {
-  width: 32px;
-  height: 32px;
+  width: 27px;
+  height: 27px;
 }/*# sourceMappingURL=search.css.map */
