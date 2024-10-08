@@ -10,3 +10,22 @@ header {
         color: var(--blue-2);
     }
 }
+
+section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 20px;
+
+    .secondary-card {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 15px;
+
+        .holder {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            gap: 10px;
+        }
+    }
+}

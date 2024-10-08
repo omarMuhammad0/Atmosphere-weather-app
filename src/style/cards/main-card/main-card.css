@@ -1,0 +1,76 @@
+.main-card {
+  display: grid;
+  justify-items: center;
+  background-color: var(--light-blue-2);
+  border-radius: 20px;
+  padding: 20px;
+}
+.main-card .title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.main-card .title h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--blue-2);
+}
+.main-card .title span {
+  font-size: 2rem;
+  color: var(--blue-2);
+}
+.main-card .main .temp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.main-card .main .temp svg {
+  width: 45px;
+  height: 45px;
+}
+.main-card .main .temp svg path {
+  fill: #6b6b6b;
+}
+.main-card .main .temp span {
+  font-size: 4rem;
+  font-weight: 900;
+  color: var(--blue-1);
+}
+.main-card .main span.weather-inf {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--blue-2);
+}
+.main-card .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.main-card .cards .card {
+  background-color: var(--light-blue-3);
+  border-radius: 20px;
+  padding: 10px;
+  display: grid;
+  align-items: center;
+}
+.main-card .cards .card .title svg {
+  width: 22px;
+  height: 22px;
+}
+.main-card .cards .card .title svg path {
+  fill: var(--blue-2);
+}
+.main-card .cards .card .title span {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+.main-card .cards .card .main-inf {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--blue-1);
+}
+.main-card .cards .card .more-inf {
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: var(--blue-2);
+}/*# sourceMappingURL=main-card.css.map */
