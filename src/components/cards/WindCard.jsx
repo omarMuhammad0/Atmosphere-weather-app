@@ -1,3 +1,5 @@
+
+import "@/style/cards/wind/wind.css";
 export default function WindCard() {
     return (
         <div className="wind">
@@ -8,26 +10,34 @@ export default function WindCard() {
                     <path d="M2 11H8M15 8V7.5C15 5.567 16.567 4 18.5 4C20.433 4 22 5.567 22 7.5C22 9.433 20.433 11 18.5 11H12.25" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
                 </svg>
                 <span>Wind</span>
+            </div>
+            <div>
                 <hr />
             </div>
-            <div className="main">
-                <div className="wind">
-                    <div className="value">3</div>
+            <div className="seperator">
+                <div className="main">
+                    <div className="wind-unit">
+                        <div className="value">3</div>
+                        <div className="unit">
+                            <span>MPH</span>
+                            <span>Wind</span>
+                        </div>
+                    </div>
                     <div>
-                        <span>MPH</span>
-                        <span>Wind</span>
+                        <hr />
+                    </div>
+                    <div className="gusts">
+                        <div className="value">9</div>
+                        <div className="unit">
+                            <span>MPH</span>
+                            <span>Gusts</span>
+                        </div>
                     </div>
                 </div>
-                <hr />
-                <div className="gusts">
-                    <div className="value">9</div>
-                    <div>
-                        <span>MPH</span>
-                        <span>Gusts</span>
-                    </div>
+                <div className="img-holder">
+                    <img src="/images/compass.png" alt="Compass-image" width="80px" />
                 </div>
             </div>
-            <img src="/images/compass.png" alt="Compass-image" width="80px" />
         </div>
     )
 }
