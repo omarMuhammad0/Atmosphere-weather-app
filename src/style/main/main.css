@@ -23,6 +23,6 @@ section .secondary-cards {
 }
 section .secondary-cards .holder {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   gap: 10px;
 }/*# sourceMappingURL=main.css.map */
