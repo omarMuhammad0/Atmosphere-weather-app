@@ -21,7 +21,9 @@
   font-weight: 800;
 }
 .days-forecast hr {
-  color: var(--blue-2);
+  background-color: var(--blue-2);
+  height: 2px;
+  border: none;
 }
 .days-forecast .cards {
   display: grid;

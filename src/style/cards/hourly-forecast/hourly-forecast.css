@@ -21,7 +21,9 @@
   font-weight: 800;
 }
 .hourly-forecast hr {
-  color: var(--blue-2);
+  background-color: var(--blue-2);
+  height: 2px;
+  border: none;
 }
 .hourly-forecast .cards {
   display: grid;

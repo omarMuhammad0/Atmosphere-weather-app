@@ -23,7 +23,9 @@
         }
     }
     hr {
-        color: var(--blue-2);
+        background-color: var(--blue-2);
+        height: 2px;
+        border: none;
     }
     .cards {
         display: grid;
