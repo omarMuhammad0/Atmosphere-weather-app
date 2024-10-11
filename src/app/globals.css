@@ -7,71 +7,6 @@
     --blue-2: #00284E;
 }
 
-@font-face {
-  font-family: 'Montserrat';
-  src: url('/fonts/Montserrat-Black.ttf') format('truetype');
-  font-weight: 900; /* Black */
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url('/fonts/Montserrat-Bold.ttf') format('truetype');
-  font-weight: 700; /* Bold */
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url('/fonts/Montserrat-ExtraBold.ttf') format('truetype');
-  font-weight: 800; /* ExtraBold */
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url('/fonts/Montserrat-Light.ttf') format('truetype');
-  font-weight: 300; /* Light */
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url('/fonts/Montserrat-Medium.ttf') format('truetype');
-  font-weight: 500; /* Medium */
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url('/fonts/Montserrat-Regular.ttf') format('truetype');
-  font-weight: 400; /* Regular */
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url('/fonts/Montserrat-SemiBold.ttf') format('truetype');
-  font-weight: 600; /* SemiBold */
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url('/fonts/Montserrat-Thin.ttf') format('truetype');
-  font-weight: 100; /* Thin */
-  font-style: normal;
-  font-display: swap;
-}
-
-
 body {
   font-family: "Montserrat", sans-serif;
   font-display: swap;
@@ -90,6 +25,11 @@ body {
 svg {
   width: 20px;
   height: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */

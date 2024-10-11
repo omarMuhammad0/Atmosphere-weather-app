@@ -1,4 +1,5 @@
 import "./globals.css";
+import "./font.css";
 
 export const metadata = {
   title: "Atmosphere",

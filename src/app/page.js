@@ -13,10 +13,19 @@ export default function Home() {
   return (
     <div className="body">
       <div className="container">
-        <header>
+        <header className="main-header">
           <div className="logo">Atmosphere</div>
-          <Search />
-          <Menu />
+          <Search className="search" />
+          <Menu className="menu" />
+        </header>
+        <header className="mobile-header">
+          <div className="first-holder">
+            <div className="logo">Atmosphere</div>
+            <Menu className="menu" />
+          </div>
+          <div className="second-holder">
+            <Search className="search" />
+          </div>
         </header>
         <section>
           <MainCard />

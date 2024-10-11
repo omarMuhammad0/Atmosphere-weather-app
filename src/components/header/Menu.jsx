@@ -3,10 +3,16 @@ import "@/style/header/menu/menu.css"
 export default function Menu() {
     return (
         <button>
-            <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" href="http://www.w3.org/2000/svg">
-                <path d="M4 18L20 18" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
-                <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
-                <path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+            fill="currentColor"
+            >
+                <rect x="-1" y="3" width="25" height="2.5" rx="1.5" />
+                <rect x="-1" y="10.5" width="25" height="2.5" rx="1.5" />
+                <rect x="-1" y="18" width="25" height="2.5" rx="1.5" />
             </svg>
         </button>
     )

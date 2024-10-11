@@ -1,13 +1,30 @@
-header {
+.main-header, .mobile-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-block: 25px;
 }
-header .logo {
-  font-size: 2.5rem;
-  font-weight: 800;
+.main-header .logo, .mobile-header .logo {
+  font-size: calc(0.8rem + 1.6vw);
+  font-weight: 900;
   color: var(--blue-2);
+}
+
+.mobile-header {
+  width: 100%;
+  display: none;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 10px;
+}
+.mobile-header .first-holder {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mobile-header .second-holder input {
+  width: 100%;
 }
 
 section {
@@ -25,4 +42,16 @@ section .secondary-cards .holder {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .mobile-header {
+    display: grid;
+  }
+  .main-header {
+    display: none;
+  }
+  .container {
+    margin-inline: 15px;
+  }
 }/*# sourceMappingURL=main.css.map */
