@@ -102,3 +102,53 @@
     }
 
 }
+
+/* Small Devices (Tablets) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .wind {
+        padding: 10px;
+
+        .title {
+            svg {
+                width: 15px;
+                height: 15px;
+            }
+            span {
+                font-size: 0.9rem;
+            }
+        }
+        .seperator {
+            .main {
+                .wind-unit {
+                    .value {
+                        font-size: 1.5rem;
+                    }
+
+                    .unit {
+                        span:first-child {
+                            font-size: 0.9rem;
+                        }
+                        span:last-child {
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+
+                .gusts {
+                    .value {
+                        font-size: 1.5rem;
+                    }
+                    .unit {
+                        span:first-child {
+                            font-size: 0.9rem;
+                        }
+                        span:last-child {
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+}

@@ -52,6 +52,12 @@ section .secondary-cards .holder {
     display: none;
   }
   .container {
+    margin-inline: 35px;
+  }
+}
+/* Extra Small Devices (Phones) */
+@media (max-width: 480px) {
+  .container {
     margin-inline: 15px;
   }
 }/*# sourceMappingURL=main.css.map */

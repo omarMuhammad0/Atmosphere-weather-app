@@ -79,4 +79,43 @@
 .days-forecast progress::-webkit-progress-bar {
   background-color: var(--light-blue-3);
   border-radius: 20px;
+}
+
+/* Small Devices (Tablets) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .days-forecast {
+    padding: 10px;
+  }
+  .days-forecast .title svg {
+    width: 15px;
+    height: 15px;
+  }
+  .days-forecast .title span {
+    font-size: 0.9rem;
+  }
+  .days-forecast .cards {
+    gap: 5px;
+    margin-block: 7.5px;
+  }
+  .days-forecast .cards .card {
+    padding-block: 10px;
+    gap: 7.5px;
+    border-radius: 12px;
+  }
+  .days-forecast .cards .card .day {
+    font-size: 0.8rem;
+  }
+  .days-forecast .cards .card .date {
+    font-size: 0.6rem;
+  }
+  .days-forecast .cards .card .temp {
+    font-size: 1.2rem;
+  }
+  .days-forecast .cards .card svg {
+    width: 18px;
+    height: 18px;
+  }
+  .days-forecast progress {
+    height: 7px;
+  }
 }/*# sourceMappingURL=days-forecast.css.map */

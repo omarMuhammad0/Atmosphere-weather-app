@@ -33,6 +33,7 @@
 }
 .uv-index .uv-holder .main-inf {
   display: grid;
+  margin-bottom: 5px;
 }
 .uv-index .uv-holder .main-inf .temp {
   font-size: 2.5rem;
@@ -59,4 +60,30 @@
   font-size: 0.8rem;
   font-weight: 800;
   color: var(--blue-2);
+}
+
+/* Small Devices (Tablets) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .uv-index {
+    padding: 10px;
+  }
+  .uv-index .title svg {
+    width: 15px;
+    height: 15px;
+  }
+  .uv-index .title span {
+    font-size: 0.9rem;
+  }
+  .uv-index .uv-holder .main-inf .temp {
+    font-size: 1.8rem;
+  }
+  .uv-index .uv-holder .main-inf .condition {
+    font-size: 0.9rem;
+  }
+  .uv-index .uv-holder .last .uv-bar {
+    height: 7px;
+  }
+  .uv-index .uv-holder .last .more-inf {
+    font-size: 0.55rem;
+  }
 }/*# sourceMappingURL=uv-index.css.map */

@@ -37,6 +37,8 @@
 
         .main-inf {
             display: grid;
+            margin-bottom: 5px;
+
             .temp {
                 font-size: 2.5rem;
                 font-weight: 800;
@@ -67,4 +69,39 @@
         }
     }
 
+}
+
+/* Small Devices (Tablets) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .uv-index {
+        padding: 10px;
+
+        .title {
+            svg {
+                width: 15px;
+                height: 15px;
+            }
+            span {
+                font-size: 0.9rem;
+            }
+        }
+        .uv-holder {
+            .main-inf {
+                .temp {
+                    font-size: 1.8rem;
+                }
+                .condition {
+                    font-size: 0.9rem;
+                }
+            }
+            .last {
+                .uv-bar {
+                    height: 7px;
+                }
+                .more-inf {
+                    font-size: 0.55rem;
+                }
+            }
+        }
+    }
 }

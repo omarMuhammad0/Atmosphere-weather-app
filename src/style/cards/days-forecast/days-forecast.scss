@@ -89,3 +89,49 @@
         }
     }
 }
+
+
+/* Small Devices (Tablets) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .days-forecast {
+        padding: 10px;
+
+        .title {
+
+            svg {
+                width: 15px;
+                height: 15px;
+            }
+            span {
+                font-size: 0.9rem;
+            }
+        }
+        .cards {
+            gap: 5px;
+            margin-block: 7.5px;
+
+            .card {
+                padding-block: 10px;
+                gap: 7.5px;
+                border-radius: 12px;;
+
+                .day {
+                    font-size: 0.8rem;
+                }
+                .date {
+                    font-size: 0.6rem;
+                }
+                .temp {
+                    font-size: 1.2rem;
+                }
+                svg {
+                    width: 18px;
+                    height: 18px;
+                }
+            }
+        }
+        progress {
+            height: 7px;
+        }
+    }
+}

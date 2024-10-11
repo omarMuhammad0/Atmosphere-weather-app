@@ -85,4 +85,36 @@
 }
 .wind .seperator .img-holder img {
   width: 80%;
+}
+
+/* Small Devices (Tablets) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .wind {
+    padding: 10px;
+  }
+  .wind .title svg {
+    width: 15px;
+    height: 15px;
+  }
+  .wind .title span {
+    font-size: 0.9rem;
+  }
+  .wind .seperator .main .wind-unit .value {
+    font-size: 1.5rem;
+  }
+  .wind .seperator .main .wind-unit .unit span:first-child {
+    font-size: 0.9rem;
+  }
+  .wind .seperator .main .wind-unit .unit span:last-child {
+    font-size: 0.8rem;
+  }
+  .wind .seperator .main .gusts .value {
+    font-size: 1.5rem;
+  }
+  .wind .seperator .main .gusts .unit span:first-child {
+    font-size: 0.9rem;
+  }
+  .wind .seperator .main .gusts .unit span:last-child {
+    font-size: 0.8rem;
+  }
 }/*# sourceMappingURL=wind.css.map */
