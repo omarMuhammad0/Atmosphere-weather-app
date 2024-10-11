@@ -76,14 +76,49 @@
   border-radius: 20px;
 }
 
-/* Small Devices (Tablets) */
-@media (min-width: 481px) and (max-width: 768px) {
+@media (max-width: 480px) {
   .hourly-forecast {
-    padding: 10px;
+    padding: 6px;
+    border-radius: 12px;
   }
   .hourly-forecast .title svg {
     width: 15px;
     height: 15px;
+  }
+  .hourly-forecast .title span {
+    font-size: 1rem;
+  }
+  .hourly-forecast .cards {
+    gap: 5px;
+    margin-block: 7.5px;
+  }
+  .hourly-forecast .cards .card {
+    padding-block: 5px;
+    gap: 7.5px;
+    border-radius: 7px;
+  }
+  .hourly-forecast .cards .card .time {
+    font-size: 0.5rem;
+  }
+  .hourly-forecast .cards .card .temp {
+    font-size: 1rem;
+  }
+  .hourly-forecast .cards .card svg {
+    width: 16px;
+    height: 16px;
+  }
+  .hourly-forecast progress {
+    height: 7px;
+  }
+}
+/* Small Devices (Tablets) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .hourly-forecast {
+    padding: 7.5px;
+  }
+  .hourly-forecast .title svg {
+    width: 12.5px;
+    height: 12.5px;
   }
   .hourly-forecast .title span {
     font-size: 0.9rem;

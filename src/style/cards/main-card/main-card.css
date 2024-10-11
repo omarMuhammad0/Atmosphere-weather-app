@@ -76,6 +76,60 @@
 }
 
 /* Extra Small Devices (Phones) */
+@media (max-width: 480px) {
+  .main-card {
+    padding: 5px;
+    border-radius: 12px;
+  }
+  .main-card .title {
+    gap: 5px;
+  }
+  .main-card .title h2 {
+    font-size: 2.4rem;
+  }
+  .main-card .title span {
+    font-size: 1.2rem;
+  }
+  .main-card .main {
+    margin-bottom: 30px;
+  }
+  .main-card .main .temp {
+    gap: 5px;
+  }
+  .main-card .main .temp svg {
+    width: 35px;
+    height: 35px;
+  }
+  .main-card .main .temp span {
+    font-size: 2.5rem;
+  }
+  .main-card .main span.weather-inf {
+    font-size: 1.8rem;
+  }
+  .main-card .cards {
+    gap: 7px;
+  }
+  .main-card .cards .card {
+    border-radius: 12px;
+  }
+  .main-card .cards .card .title {
+    gap: 3px;
+  }
+  .main-card .cards .card .title svg {
+    width: 15px;
+    height: 15px;
+  }
+  .main-card .cards .card .title span {
+    font-size: 0.9rem;
+  }
+  .main-card .cards .card .main-inf {
+    font-size: 1.8rem;
+    margin-block: 7px;
+  }
+  .main-card .cards .card .more-inf {
+    font-size: 0.55rem;
+  }
+}
 /* Small Devices (Tablets) */
 @media (min-width: 481px) and (max-width: 768px) {
   .main-card {

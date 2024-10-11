@@ -90,6 +90,51 @@
     }
 }
 
+@media (max-width: 480px) {
+    .days-forecast {
+        padding: 6px;
+        border-radius: 10px;
+
+        .title {
+
+            svg {
+                width: 15px;
+                height: 15px;
+            }
+            span {
+                font-size: 1rem;
+            }
+        }
+        .cards {
+            gap: 5px;
+            margin-block: 7.5px;
+
+            .card {
+                padding-block: 5px;
+                gap: 7.5px;
+                border-radius: 7px;;
+
+                .day {
+                    font-size: 0.7rem;
+                }
+                .date {
+                    font-size: 0.55rem;
+                }
+                .temp {
+                    font-size: 1rem;
+                }
+                svg {
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+        }
+        progress {
+            height: 7px;
+        }
+    }
+}
+
 
 /* Small Devices (Tablets) */
 @media (min-width: 481px) and (max-width: 768px) {

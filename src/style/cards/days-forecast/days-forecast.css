@@ -81,6 +81,44 @@
   border-radius: 20px;
 }
 
+@media (max-width: 480px) {
+  .days-forecast {
+    padding: 6px;
+    border-radius: 10px;
+  }
+  .days-forecast .title svg {
+    width: 15px;
+    height: 15px;
+  }
+  .days-forecast .title span {
+    font-size: 1rem;
+  }
+  .days-forecast .cards {
+    gap: 5px;
+    margin-block: 7.5px;
+  }
+  .days-forecast .cards .card {
+    padding-block: 5px;
+    gap: 7.5px;
+    border-radius: 7px;
+  }
+  .days-forecast .cards .card .day {
+    font-size: 0.7rem;
+  }
+  .days-forecast .cards .card .date {
+    font-size: 0.55rem;
+  }
+  .days-forecast .cards .card .temp {
+    font-size: 1rem;
+  }
+  .days-forecast .cards .card svg {
+    width: 16px;
+    height: 16px;
+  }
+  .days-forecast progress {
+    height: 7px;
+  }
+}
 /* Small Devices (Tablets) */
 @media (min-width: 481px) and (max-width: 768px) {
   .days-forecast {

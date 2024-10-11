@@ -71,6 +71,40 @@
 
 }
 
+@media (max-width: 480px) {
+    .uv-index {
+        padding: 10px;
+
+        .title {
+            svg {
+                width: 15px;
+                height: 15px;
+            }
+            span {
+                font-size: 1rem;
+            }
+        }
+        .uv-holder {
+            .main-inf {
+                .temp {
+                    font-size: 2rem;
+                }
+                .condition {
+                    font-size: 1rem;
+                }
+            }
+            .last {
+                .uv-bar {
+                    height: 7px;
+                }
+                .more-inf {
+                    font-size: 0.7rem;
+                }
+            }
+        }
+    }
+}
+
 /* Small Devices (Tablets) */
 @media (min-width: 481px) and (max-width: 768px) {
     .uv-index {

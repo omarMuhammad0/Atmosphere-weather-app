@@ -60,4 +60,12 @@ section .secondary-cards .holder {
   .container {
     margin-inline: 15px;
   }
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+  section .secondary-cards .holder {
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=main.css.map */

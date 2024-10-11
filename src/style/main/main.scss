@@ -26,7 +26,6 @@
     }
     .second-holder input {
         width: 100%;
-
     }
 }
 
@@ -65,5 +64,14 @@ section {
 @media (max-width: 480px) {
     .container {
         margin-inline: 15px;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+
+        .secondary-cards .holder {
+            display: flex;
+            flex-direction: column;
+        }
     }
 }
