@@ -127,8 +127,7 @@
     }
 }
 
-/* Small Devices (Tablets) */
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 1024px) {
     .hourly-forecast {
         padding: 7.5px;
 
@@ -165,6 +164,39 @@
         }
         progress {
             height: 7px;
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .hourly-forecast {
+        .title {
+            span {
+                font-size: 1.5rem;
+            }
+            svg {
+                width: 25px;
+                height: 25px;
+            }
+        }
+        .cards .card {
+            gap: 15px;
+            .time {
+                font-size: 1.2rem;
+            }
+            .temp {
+                font-size: 2rem;
+            }
+            svg {
+                width: 30px;
+                height: 30px;
+            }
+        }
+        .cards {
+            gap: 10px;
+        }
+        progress {
+            height: 10px;
         }
     }
 }

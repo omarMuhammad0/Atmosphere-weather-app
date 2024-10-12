@@ -153,7 +153,7 @@
 }
 
 /* Small Devices (Tablets) */
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 1024px) {
     .wind {
         padding: 10px;
 
@@ -198,6 +198,50 @@
                 }
             }
             
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .wind {
+        .title {
+            svg {
+                width: 30px;
+                height: 30px;
+            }
+            span {
+                font-size: 1.5rem;
+            }
+        }
+        .seperator {
+            .main {
+                .wind-unit {
+                    .value {
+                        font-size: 2.7rem;
+                    }
+                    .unit {
+                        span:first-child {
+                            font-size: 1.6rem;
+                        }
+                        span:last-child {
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+                .gusts {
+                    .value {
+                        font-size: 2.7rem;
+                    }
+                    .unit {
+                        span:first-child {
+                            font-size: 1.6rem;
+                        }
+                        span:last-child {
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+            }
         }
     }
 }

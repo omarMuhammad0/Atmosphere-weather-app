@@ -111,8 +111,7 @@
     height: 7px;
   }
 }
-/* Small Devices (Tablets) */
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 1024px) {
   .hourly-forecast {
     padding: 7.5px;
   }
@@ -144,5 +143,33 @@
   }
   .hourly-forecast progress {
     height: 7px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hourly-forecast .title span {
+    font-size: 1.5rem;
+  }
+  .hourly-forecast .title svg {
+    width: 25px;
+    height: 25px;
+  }
+  .hourly-forecast .cards .card {
+    gap: 15px;
+  }
+  .hourly-forecast .cards .card .time {
+    font-size: 1.2rem;
+  }
+  .hourly-forecast .cards .card .temp {
+    font-size: 2rem;
+  }
+  .hourly-forecast .cards .card svg {
+    width: 30px;
+    height: 30px;
+  }
+  .hourly-forecast .cards {
+    gap: 10px;
+  }
+  .hourly-forecast progress {
+    height: 10px;
   }
 }/*# sourceMappingURL=hourly-forecast.css.map */

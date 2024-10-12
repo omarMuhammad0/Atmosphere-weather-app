@@ -118,7 +118,7 @@
   }
 }
 /* Small Devices (Tablets) */
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 1024px) {
   .wind {
     padding: 10px;
   }
@@ -146,5 +146,32 @@
   }
   .wind .seperator .main .gusts .unit span:last-child {
     font-size: 0.8rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .wind .title svg {
+    width: 30px;
+    height: 30px;
+  }
+  .wind .title span {
+    font-size: 1.5rem;
+  }
+  .wind .seperator .main .wind-unit .value {
+    font-size: 2.7rem;
+  }
+  .wind .seperator .main .wind-unit .unit span:first-child {
+    font-size: 1.6rem;
+  }
+  .wind .seperator .main .wind-unit .unit span:last-child {
+    font-size: 1.4rem;
+  }
+  .wind .seperator .main .gusts .value {
+    font-size: 2.7rem;
+  }
+  .wind .seperator .main .gusts .unit span:first-child {
+    font-size: 1.6rem;
+  }
+  .wind .seperator .main .gusts .unit span:last-child {
+    font-size: 1.4rem;
   }
 }/*# sourceMappingURL=wind.css.map */

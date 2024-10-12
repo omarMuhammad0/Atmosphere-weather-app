@@ -36,6 +36,7 @@ section {
     gap: 20px;
 
     .secondary-cards {
+        width: 100%;
         display: grid;
         grid-template-rows: repeat(3, auto);
         gap: 15px;
@@ -43,6 +44,21 @@ section {
         .holder {
             display: grid;
             grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        margin-inline: 35px;
+    }
+    section {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+
+        .secondary-cards {
             gap: 10px;
         }
     }
@@ -56,7 +72,14 @@ section {
         display: none;
     }
     .container {
-        margin-inline: 35px;
+        margin-inline: 20px;
+    }
+    section {
+        gap: 10px;
+
+        .secondary-cards {
+            gap: 10px;
+        }
     }
 }
 

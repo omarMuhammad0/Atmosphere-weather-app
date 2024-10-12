@@ -106,7 +106,7 @@
 }
 
 /* Small Devices (Tablets) */
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 1024px) {
     .uv-index {
         padding: 10px;
 
@@ -134,6 +134,38 @@
                 }
                 .more-inf {
                     font-size: 0.55rem;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .uv-index {
+        .title {
+            svg {
+                width: 30px;
+                height: 30px;
+            }
+            span {
+                font-size: 1.5rem;
+            }
+        }
+        .uv-holder {
+            .main-inf {
+                .temp {
+                    font-size: 2.7rem;
+                }
+                .condition {
+                    font-size: 1.7rem;
+                }
+            }
+            .last {
+                .uv-bar {
+                    height: 10px;
+                }
+                .more-inf {
+                    font-size: 0.8rem;
                 }
             }
         }
