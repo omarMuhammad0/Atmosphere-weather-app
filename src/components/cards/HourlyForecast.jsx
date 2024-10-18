@@ -1,6 +1,11 @@
 import "@/style/cards/hourly-forecast/hourly-forecast.css"
 
 export default function HourlyForecast( { data }) {
+
+    //getting the current hour
+    const currentDate = new Date();
+    const currentHour = currentDate.getHours();
+
     return (
         <div className="hourly-forecast">
             <div className="title">
@@ -43,7 +48,7 @@ export default function HourlyForecast( { data }) {
                     <img src={`http://openweathermap.org/img/wn/${data[5].iconCode}@2x.png`} alt="Icon" />
                 </div>
             </div>
-            <progress max="24" value={data[0].date.split(":")[0]}></progress>
+            <progress max="24" value={currentHour}></progress>
         </div>
     )
 }
