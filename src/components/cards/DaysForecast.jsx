@@ -1,6 +1,13 @@
 import "@/style/cards/days-forecast/days-forecast.css";
 
 export default function DaysForecast( { data }) {
+
+    //getting the current month's max day number
+    const currentDate = new Date();
+    const currentMonth = currentDate.getMonth();
+    const currentYear = currentDate.getFullYear();
+    const lastDayOfMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
+
     return (
         <div className="days-forecast">
             <div className="title">
@@ -49,7 +56,7 @@ export default function DaysForecast( { data }) {
                     <img src={`http://openweathermap.org/img/wn/${data[5].iconCode}@2x.png`} alt="Icon" />
                 </div>
             </div>
-            <progress max="100" value="72"></progress>
+            <progress max={lastDayOfMonth} value={data[0].date.split("/")[0]}></progress>
         </div>
     )
 }
