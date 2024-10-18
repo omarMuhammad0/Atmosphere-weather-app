@@ -12,19 +12,21 @@
   align-items: center;
 }
 .main-card .title {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+  display: grid;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 .main-card .title h2 {
   font-size: 3rem;
   font-weight: 900;
   color: var(--blue-2);
+  text-align: center;
 }
 .main-card .title span {
   font-size: 2rem;
   font-weight: 500;
   color: var(--blue-2);
+  text-align: center;
 }
 .main-card .main {
   display: grid;

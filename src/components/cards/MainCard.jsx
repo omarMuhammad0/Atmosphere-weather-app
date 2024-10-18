@@ -91,7 +91,7 @@ export default function MainCard({ data, cityName }) {
             <div className="holder">
                 <div className="main">
                     <div className="temp">
-                    <img src={`http://openweathermap.org/img/wn/${data.iconCode}@2x.png`} alt="Icon" />
+                        <img src={`http://openweathermap.org/img/wn/${data.iconCode}@2x.png`} alt="Icon" />
                         <span>{data.temp}</span>
                     </div>
                     <span className="weather-inf">{data.weatherInf}</span>
