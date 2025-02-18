@@ -1,7 +1,8 @@
 <b>Atmosphere Weather App</b>
 
 This is a weather application built with Next.js 14.2.14 It uses the OpenWeatherMap API to fetch current weather information for any location and updates the website background image based on the weather condition.
-Features
+
+<b>Features</b>
 
   Get real-time weather updates by city name.
   Displays temperature, humidity, and weather conditions.
