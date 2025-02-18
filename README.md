@@ -4,18 +4,22 @@ This is a weather application built with Next.js 14.2.14 It uses the OpenWeather
 
 <b>Features</b>
 
-  Get real-time weather updates by city name.
-  Displays temperature, humidity, and weather conditions.
-  Shows additional data like "feels like" temperature, dew point, visibility, and wind information.
-  Provides an hourly forecast and a 6-day forecast.
-  Displays the UV index for safety precautions.
-  Responsive design that works on all devices.
+  <ul>
+  <li>Get real-time weather updates by city name.</li>
+  <li>Displays temperature, humidity, and weather conditions.</li>
+  <li>Shows additional data like "feels like" temperature, dew point, visibility, and wind information.</li>
+  <li>Provides an hourly forecast and a 6-day forecast.</li>
+  <li>Displays the UV index for safety precautions.</li>
+  <li>Responsive design that works on all devices.</li>
+  </ul>
 
 <b>Technologies Used</b>
 
-  Next.js 14.2.14 – JavaScript framework for server-side rendering and React-based front-end.
-  SCSS – For styling and responsive design.
-  OpenWeatherMap API – For fetching weather data.
+  <ul>
+  <li>Next.js 14.2.14 – JavaScript framework for server-side rendering and React-based front-end.</li>
+  <li>SCSS – For styling and responsive design.</li>
+  <li>OpenWeatherMap API – For fetching weather data.</li>
+  </ul>
 
 <b>Installation</b>
 
@@ -34,31 +38,26 @@ This is a weather application built with Next.js 14.2.14 It uses the OpenWeather
 
   Open http://localhost:3000 in your browser to see the app in action.
 
-<b>How to Use</b>
-
-  Enter a city name in the search bar to get real-time weather information.
-  The app will display the current temperature, "feels like" temperature, humidity, dew point, wind speed, visibility, and a brief description   of the weather.
-  The hourly forecast and 6-day forecast will give you a overview of future weather conditions.
-  The UV index is displayed to help you gauge sun exposure risks.
-
 <b>API</b>
 
-The app fetches data from the OpenWeatherMap API. You can sign up and get your API key from OpenWeatherMap.
+The app fetches data from the OpenWeatherMap API. You can sign up and get your API key from OpenWeatherMap.<br/>
 
-  NOTE: The default limit of the request numbers is 2000, but for the free plan, the limit is 1000 requests per month.
-  API Base URL: https://api.openweathermap.org/data/3/weather
-  API Key: You will need your API key to access the weather data.
-  Addint API key:
-      -Make in your root directory ".env.local" file.
-      -Make a new variable in the following name: "NEXT_PUBLIC_API_KEY".
-      -Add your API key in it.
+  API Base URL: https://api.openweathermap.org/data/3/weather<br/>
+  API Key: You will need your API key to access the weather data.<br/>
+  <br/>
+  <b>Adding API key:</b>
+  <ul>
+    <li>Make in your root directory ".env.local" file.</li>
+    <li>Make a new variable with the following name: "NEXT_PUBLIC_API_KEY".</li>
+    <li>Add your API key to it.</li>
+  </ul>
 
 <b>Deployment</b>
 
 To deploy the app, you can follow the instructions for your preferred hosting platform, such as:
 
-  Vercel: You can deploy the app with one click on Vercel.
-  Netlify: Another option for easy deployment.
+  Vercel: You can deploy the app with one click on Vercel.<br/>
+  Netlify: Another option for easy deployment.<br/>
 
 <b>License</b>
 
