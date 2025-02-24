@@ -25,8 +25,7 @@ This is a weather application built with Next.js 14.2.14 It uses the OpenWeather
 
   Clone the repository:
 
-    git clone https://github.com/your-username/weather-app.git
-    cd weather-app
+    git clone https://github.com/omarMuhammad0/weather-app.git
 
   Install the dependencies:
 
